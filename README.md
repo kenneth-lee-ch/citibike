@@ -16,17 +16,21 @@ Citi Bike system data: https://s3.amazonaws.com/tripdata/index.html
 
 ## Data Dictionary
 
-Trip Duration (seconds)
-Start Time and Date
-Stop Time and Date
-Start Station Name
-End Station Name
-Station ID
-Station Lat/Long
-Bike ID
-User Type (Customer = 24-hour pass or 3-day pass user; Subscriber = Annual Member)
-Gender (Zero=unknown; 1=male; 2=female)
-Year of Birth
+* `tripduration`: Trip Duration (seconds)
+* `starttime`: Start Time and Date
+* `stoptime`: Stop Time and Date
+* `start station name`: Start Station Name
+* `start station latitude`: Start Station Latitude
+* `start station longitude`: Start Station Longitude
+* `end station latitude`: End Station Latutude 
+* `end station longtitude`: End station longitude
+* `end station name`: End Station Name
+* `start station id`: Start Station ID
+* `end station id`: End Station ID
+* `bikeid`: Bike ID
+* `usertype`: User Type (Customer = 24-hour pass or 3-day pass user; Subscriber = Annual Member)
+* `gender`: Gender (Zero=unknown; 1=male; 2=female)
+* `birth year`: Year of Birth of the Customer
 
 ## File Directory Description
 
@@ -36,18 +40,8 @@ Year of Birth
 
 We use the following datasets from Janurary to December in 2019:
 
-* 201901-citibike-tripdata.csv.zip
-* 201902-citibike-tripdata.csv.zip
-* 201903-citibike-tripdata.csv.zip
-* 201904-citibike-tripdata.csv.zip
-* 201905-citibike-tripdata.csv.zip
-* 201906-citibike-tripdata.csv.zip
-* 201907-citibike-tripdata.csv.zip
-* 201908-citibike-tripdata.csv.zip
-* 201909-citibike-tripdata.csv.zip
-* 201910-citibike-tripdata.csv.zip
-* 201911-citibike-tripdata.csv.zip
-* 201912-citibike-tripdata.csv.zip
+* 2019[01-12]-citibike-tripdata.csv.zip
+
 
 ### Notebooks
 
