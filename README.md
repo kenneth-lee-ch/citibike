@@ -22,18 +22,18 @@ Citi Bike system data: https://s3.amazonaws.com/tripdata/index.html
 
 We use the following datasets from Janurary to December in 2019:
 
-201901-citibike-tripdata.csv.zip
-201902-citibike-tripdata.csv.zip
-201903-citibike-tripdata.csv.zip
-201904-citibike-tripdata.csv.zip
-201905-citibike-tripdata.csv.zip
-201906-citibike-tripdata.csv.zip
-201907-citibike-tripdata.csv.zip
-201908-citibike-tripdata.csv.zip
-201909-citibike-tripdata.csv.zip
-201910-citibike-tripdata.csv.zip
-201911-citibike-tripdata.csv.zip
-201912-citibike-tripdata.csv.zip
+* 201901-citibike-tripdata.csv.zip
+* 201902-citibike-tripdata.csv.zip
+* 201903-citibike-tripdata.csv.zip
+* 201904-citibike-tripdata.csv.zip
+* 201905-citibike-tripdata.csv.zip
+* 201906-citibike-tripdata.csv.zip
+* 201907-citibike-tripdata.csv.zip
+* 201908-citibike-tripdata.csv.zip
+* 201909-citibike-tripdata.csv.zip
+* 201910-citibike-tripdata.csv.zip
+* 201911-citibike-tripdata.csv.zip
+* 201912-citibike-tripdata.csv.zip
 
 ### Notebooks
 
