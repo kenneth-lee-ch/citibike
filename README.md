@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Citi Bike is New York City’s bike share system established in 2013. It has become a vital part of the transportation network in New York City. It is available for use throughout the entire year. All the riders have access to thousands of bikes at hundreds of stations across Manhattan, Brooklyn, Queens and Jersey City. In this work, we would like to explore the characteristics of this bike share system and come up with recommendations that may improve the current program based on data analysis wtih the Citi Bike system data that is publicly available.
+Citi Bike is New York City’s bike share system established in 2013. It has become a vital part of the transportation network in New York City. It is available for use throughout the entire year. All the riders have access to thousands of bikes at hundreds of stations across Manhattan, Brooklyn, Queens and Jersey City. In this work, we would like to explore the characteristics of this bike share system and come up with recommendations that may improve the current program based on data analysis wtih the Citi Bike system 2019 data that is publicly available.
 
 ## Common Questions of Interests
 
@@ -12,13 +12,28 @@ Citi Bike is New York City’s bike share system established in 2013. It has bec
 
 ## Data Source
 
-Citi Bike system data: https://www.citibikenyc.com/system-data
+Citi Bike system data: https://s3.amazonaws.com/tripdata/index.html
 
 ## File Directory Description
 
 ### Code
 
 ### Data
+
+We use the following datasets from Janurary to December in 2019:
+
+201901-citibike-tripdata.csv.zip
+201902-citibike-tripdata.csv.zip
+201903-citibike-tripdata.csv.zip
+201904-citibike-tripdata.csv.zip
+201905-citibike-tripdata.csv.zip
+201906-citibike-tripdata.csv.zip
+201907-citibike-tripdata.csv.zip
+201908-citibike-tripdata.csv.zip
+201909-citibike-tripdata.csv.zip
+201910-citibike-tripdata.csv.zip
+201911-citibike-tripdata.csv.zip
+201912-citibike-tripdata.csv.zip
 
 ### Notebooks
 
