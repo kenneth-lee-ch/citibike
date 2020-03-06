@@ -20,7 +20,7 @@ Citi Bike system data: https://www.citibikenyc.com/system-data
 
 Kenneth Lee ([@kenneth-lee-ch](https://github.com/kenneth-lee-ch))
 
-Ivan Siu ([@ivansiu](https://github.com/ivansiu)
+Ivan Siu ([@ivansiu](https://github.com/ivansiu))
 
 
 
