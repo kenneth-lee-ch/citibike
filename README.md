@@ -20,15 +20,15 @@ In this work, we would like to explore the characteristics of this bike share sy
 	
 	* `extract.py`: this file scrapes the data files directly from the source of the CitiBike webpage by making requests to a Amazon Web Serivces S3 public bucket. It downloads all citibike data file in 2019 and convert them into a table in a SQLite database. 
 
-	* `loadEngine.py`: this file checks the `/data/` folder if it is needed to create a new SQLite file. When the data folder is empty, it will call extract.py to scrape the web and create a SQL engine instance and store all the 2019 citibike data. 
+	* `loadEngine.py`: this file checks the `/data/` folder if it is needed to create a new SQLite file. When the data folder is empty, it will call extract.py to scrape the web and create a SQL engine instance and store all the 2019 citibike data. Please modify this file when you want to scrape the data from a different year.
 
-	* `getod.py`:
+	* `getod.py`: this file preprocess the data for clustering.
 
 	* `cluster_metric:` this file contains codes to evaluate the clusters by using Silhouette score and Davies-Bouldin scores in the `sklearn` library.
 
 * `/notebook/`: this folder contains the main report writeup.
 
-	`Citbike System Data Analysis.ipynb`: this is our main report file name. 
+	* `Citbike System Data Analysis.ipynb`: this is our main report file name. 
 
 * `/images/`: since we make use of a Python packaged called `keplergl` to create some geographic plots, it requires some specific setup in order to display the image properly on a jupyter notebook. We put the output static images into this folder and display them on jupyter notebook instead. 
 
