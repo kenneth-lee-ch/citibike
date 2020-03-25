@@ -133,6 +133,7 @@ def loadToSQL(bikechunk, reader, engine, tablename):
 	for chunk in reader:
 		# Convert the chunk to sql and append to the existing table in the database
 	    chunk.to_sql(tablename, engine, if_exists='append')
+	# Don't need to return anything
 	return None
 
 	

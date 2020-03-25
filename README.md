@@ -22,7 +22,7 @@ In this work, we would like to explore the characteristics of this bike share sy
 
 	* `loadEngine.py`: this file checks the `/data/` folder if it is needed to create a new SQLite file. When the data folder is empty, it will call extract.py to scrape the web and create a SQL engine instance and store all the 2019 citibike data. Please modify this file when you want to scrape the data from a different year.
 
-	* `getod.py`: this file preprocess the data for clustering.
+	* `data_preprocess.py`: this file contains codes to preprocess the data for clustering.
 
 	* `cluster_metric:` this file contains codes to evaluate the clusters by using Silhouette score and Davies-Bouldin scores in the `sklearn` library.
 
@@ -32,7 +32,9 @@ In this work, we would like to explore the characteristics of this bike share sy
 
 * `/images/`: since we make use of a Python packaged called `keplergl` to create some geographic plots, it requires some specific setup in order to display the image properly on a jupyter notebook. We put the output static images into this folder and display them on jupyter notebook instead. 
 
-* `/data/`: this folder stores all data files. However, this folder is empty since our data file is over 100MB (around 3.6GB), we don't include the data file as instructed.
+* `/data/`: this folder stores all data files. We do not include our main data file is over 100MB (around 3.6GB), we don't include the data file as instructed. We include an external data file where we can map the geographic information for our dataset based on longitude and latitude.
+
+	* `spatial.csv`: this file contains spatial data extracted by ArcGIS (external)
 
 ## How to run the code
 
